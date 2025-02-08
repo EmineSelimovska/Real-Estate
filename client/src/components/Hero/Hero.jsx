@@ -1,7 +1,18 @@
-import React from "react";
+import "react";
 const Hero = () => {
     return(
-        <h1>Hero</h1>
+        <section className="hero-wrapper">
+            <div className="hero-container">
+
+                <div className="hero-left">
+                    Left Section
+                </div>
+
+                <div className="hero-right">
+                    Right Section
+                </div>
+            </div>
+        </section>
     )
 }
 

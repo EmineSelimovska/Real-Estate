@@ -1,14 +1,22 @@
-
+.wrapper{
+  width: 100%;
+  max-width: 100%;
+}
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  background: black;
+  padding: 1em;
 }
 .menu-header a {
   padding: 2em;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 23px;
+  transition: color 0.3s ease-in-out;
+}
+.menu-header a:hover {
+  color: #ff6600;
 }
 
