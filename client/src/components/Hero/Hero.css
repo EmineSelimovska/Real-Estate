@@ -1,0 +1,25 @@
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.img-container{
+    width: 30em;
+    height: 30em;
+    
+    padding-left: 30em;
+}
+
+.img-container img{
+    width:100%;
+    border-radius: 2em;
+}
