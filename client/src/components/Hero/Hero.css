@@ -10,6 +10,14 @@
     justify-content: center;
     align-items: center;
     background: black;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.hero-right{
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
 }
 
 .img-container{
@@ -20,6 +28,6 @@
 }
 
 .img-container img{
-    width:100%;
+    width:130%;
     border-radius: 2em;
 }
