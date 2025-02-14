@@ -7,8 +7,8 @@ const Count = () => {
         <div className="count-container">
         <div className="status">
                     <div className="stat">
-                        <span>
-                            <CountUp start={1} end={1000} duration={4}/>
+                        <span >
+                            <CountUp start={1} end={1000} duration={4} style={{fontSize: "28px"}}/>
                             <span>+</span>
                         </span> <span>
                         Доволни клиенти
@@ -17,7 +17,7 @@ const Count = () => {
 
                     <div className="stat">
                         <span>
-                            <CountUp start={1} end={1000} duration={4}/>
+                            <CountUp start={1} end={1000} duration={4} style={{fontSize: "28px"}}/>
                             <span>+</span>
                         </span> <span>
                         Първокласни продукти
@@ -26,7 +26,7 @@ const Count = () => {
 
                     <div className="stat">
                         <span>
-                            <CountUp end={100} duration={4}/>
+                            <CountUp end={100} duration={4} style={{fontSize: "28px"}}/>
                             <span>%</span>
                         </span> <span>
                         Подход

@@ -4,13 +4,32 @@
 }
 
 .footer-container{
+    display: flex;
+    justify-content: space-between;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
 
 .footer-info{
     display: flex;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
    gap: 1em;
+}
+
+.footer-contact{
+    font-size: 16px;
+}
+
+.footer-contact> .cont{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.footer-social > .media{
+    display: flex;
+   font-size: 10px;
+    gap: 1em;
 }
