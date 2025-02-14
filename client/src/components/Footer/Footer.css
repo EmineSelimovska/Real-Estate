@@ -1,0 +1,16 @@
+.footer-wrapper{
+    background: black;
+    
+}
+
+.footer-container{
+    color: white;
+    padding: 10px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 1em;
+}

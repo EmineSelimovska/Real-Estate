@@ -1,18 +1,63 @@
 .hero-wrapper{
     color: white;
     position: relative;
-    padding-bottom: 2em;
+   
 }
 
 .hero-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background: black;
-    padding-left: 10em;
-    padding-right: 10em;
+   
 }
+.hero-container>.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+ }
+
+ .hero-container>.hero-left>.hero-title{
+    position: relative;
+    z-index: 1;
+ }
+
+ .hero-container>.hero-left>.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 4rem;
+ }
+
+ .hero-container>.hero-left>.hero-title>h1:hover{
+    color: #ff6600;
+    transition: 2s ease-in-out;
+ }
+.hero-container> .hero-left> .hero-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-container>.hero-left>.hero-desc>span{
+font-size: 1.2em;
+}
+
+.hero-container> .hero-left>.search-bar{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120,120,120, 0.374);
+    padding: 0.5em 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container> .hero-left>.search-bar input{
+    border: none;
+    outline: none;
+}
+
 
 .hero-right{
     justify-content: center;
