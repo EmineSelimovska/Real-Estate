@@ -9,8 +9,8 @@ const Count = () => {
                     <div className="stat">
                         <span >
                             <CountUp start={1} end={1000} duration={4} style={{fontSize: "28px"}}/>
-                            <span>+</span>
-                        </span> <span>
+                            <span className="plus">+</span>
+                        </span> <span className="statusName">
                         Доволни клиенти
                         </span>
                     </div>
@@ -18,8 +18,8 @@ const Count = () => {
                     <div className="stat">
                         <span>
                             <CountUp start={1} end={1000} duration={4} style={{fontSize: "28px"}}/>
-                            <span>+</span>
-                        </span> <span>
+                            <span className="plus">+</span>
+                        </span> <span className="statusName">
                         Първокласни продукти
                         </span>
                     </div>
@@ -27,8 +27,8 @@ const Count = () => {
                     <div className="stat">
                         <span>
                             <CountUp end={100} duration={4} style={{fontSize: "28px"}}/>
-                            <span>%</span>
-                        </span> <span>
+                            <span className="plus">%</span>
+                        </span> <span className="statusName">
                         Подход
                         </span>
                     </div>

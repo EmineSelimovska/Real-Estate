@@ -8,8 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
-   
 }
 .hero-container>.hero-left{
     display: flex;
@@ -40,7 +38,8 @@
 }
 
 .hero-container>.hero-left>.hero-desc>span{
-font-size: 1.2em;
+    color:  rgb(151, 137, 137);
+    font-size: 1.2em;
 }
 
 .hero-container> .hero-left>.search-bar{

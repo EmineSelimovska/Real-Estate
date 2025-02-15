@@ -1,0 +1,16 @@
+.r-wrapper{
+   color: white;
+}
+
+.r-container{
+    background: black;
+    padding: 2em;
+}
+.r-head>span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-left: 15em;
+    font-size: 23px;
+}
