@@ -17,7 +17,7 @@ function Residencies() {
             data.map((res, i) => (
              <SwiperSlide key={i}>
               <div className="r-card">
-              <img src={res.image} style={{width: "30%", height: "30%"}} alt="home" />
+              <img src={res.image} alt="home" />
 
               <span className="r-price">
               <span>{res.price} </span>

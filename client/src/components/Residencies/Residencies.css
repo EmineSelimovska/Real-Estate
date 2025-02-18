@@ -15,7 +15,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 25em;
+    margin-left: 30em;
     font-size: 23px;
     font-weight: bold;
 }
@@ -29,9 +29,36 @@
     gap: 0.2em;
 }
 
-.resName{
+.r-card{
     display: flex;
     flex-direction: column;
-    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.r-card>img{
+    width: 100%;
+    max-width: 25em;
+ 
+}
+
+.r-card>:nth-child(2){
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.r-card>:nth-child(3){
+    font-size: 1.5em;
+  
+}
+
+.r-card>:nth-child(4){
+   color: rgb(151, 137, 137);
+    font-size: 1em;
+    width: 15em;
+  
+    
+}
+
+
 
