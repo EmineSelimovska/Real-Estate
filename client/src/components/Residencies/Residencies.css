@@ -1,16 +1,37 @@
 .r-wrapper{
    color: white;
+   margin: 20px;
 }
 
 .r-container{
     background: black;
     padding: 2em;
 }
+
+.r-head{
+    margin-bottom: 2em;
+}
 .r-head>span{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 2em;
-    margin-left: 15em;
+    margin-left: 25em;
     font-size: 23px;
+    font-weight: bold;
 }
+
+
+.r-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 0.2em;
+}
+
+.resName{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+

@@ -1,12 +1,11 @@
 .footer-wrapper{
     background: black;
-    
 }
 
 .footer-container{
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #ffffff;
     padding: 15px;
 }
 
